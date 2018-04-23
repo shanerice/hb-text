@@ -1,31 +1,44 @@
-Monitoring – like web development - is complex. Every day you hear about new tools and techniques, but they're usually for big organizations. Ones with dedicated devops teams and so much traffic they care more about “error rates” than individual user experiences.
+Monitoring – like web development - is more complex than its ever been. Every day we hear about new tools and techniques, but they're usually for big organizations. Ones with dedicated devops teams and so much traffic they care more about “error rates” than individual user experiences.
 
-When you're on a smaller team, this doesn't work so well. You know that instrumentation doesn’t pay the bills. Customers do. When they encounter a problem you need clear actionable intelligence, not walls of charts and reams of logs.
+If you're on a smaller team, this doesn't work so well. You know that instrumentation doesn’t pay the bills. Customers do. When they encounter a problem you need clear actionable intelligence, not walls of charts and reams of logs.
 
-What if there were a monitoring tool for developers like you? A single tool that could answer at a glance:
-	•	Are any front-end or back-end systems raising errors?
-	•	Is the site unreachable or unusually slow?
-	•	Are scheduled tasks completing as expected?
-	•	Which customers have been affected by errors today?
+What if there were a monitoring tool for developers like us? A single tool that could answer at a glance:
+
+- Are any front-end or back-end systems raising errors?
+- Is the site unreachable or unusually slow?
+- Are scheduled tasks completing as expected?
+- Which customers have been affected by errors today?
 
 That’s Honeybadger. We’re the application health monitoring tool built for you, not Google.
 
-You can setup Honeybadger dead-easy by automatically hooking into popular frameworks like Rails, job systems like Sidekiq, authentication libraries like Devise, and front-end JavaScript.
+We make setup dead-easy by automatically hooking into popular frameworks like Rails, job systems like Sidekiq, authentication libraries like Devise, and front-end JavaScript.
 
-When you use Honeybadger you can reduce time to resolution by providing context-rich error reports and purpose-built tools. For example, you might see that an error report contains a certain cookie, do a search for other errors with that cookie, then click on a relevant line of the backtrace to open the file in GitHub and fix the problem.
+We reduce time to resolution by providing context-rich error reports and purpose-built tools. For example, you might see that an error report contains a certain cookie, do a search for other errors with that cookie, then click on a relevant line of the backtrace to open the file in GitHub and fix the problem.
 
 We respect your unique workflow. Does your code live on GitHub, Bitbucket or GitLab? Does your team use GH Issues, Pivotal Tracker or Jira? Do you prefer to manage errors via web, or mobile app? We’ve got you covered with these and many more options.
 
 Honeybadger is used by tens of thousands of pragmatic developers in companies of all sizes who want to focus on shipping great, error-free products instead of wasting time building and maintaining a bespoke monitoring stack. Here’s what some of them say:
 
+![](https://www.honeybadger.io/images/chris.png)
+
+
 Wow - Customers are blown away that I email them so quickly after an error.
 — Chris Patton
+
+![](https://www.honeybadger.io/images/felix.png)
+
 
 The whole setup took about 10 minutes - that’s with me moving really slowly. Nicely done!
 — Felix Livni
 
+![](https://www.honeybadger.io/images/michael.png)
+
+
 We’ve looked at a lot of error management systems. Honeybadger is head and shoulders above the rest and somehow gets better with every new release.
 — Michael Smith
+
+![](https://www.honeybadger.io/images/customer_logos_2x.png)
+
 
 All of these developers know the peace of mind of having monitoring done. Their customers and stakeholders are happy because whenever the inevitable production issue does occur, it's fixed in record time.
 
